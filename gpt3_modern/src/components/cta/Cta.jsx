@@ -1,8 +1,15 @@
-import React from "react";
 import "./cta.css";
 
-const Cta = () => {
-  return <div>Cta</div>;
-};
+const CTA = () => (
+  <div className="cta">
+    <div className="cta-content">
+      <p>Request Early Access to Get Started</p>
+      <h3>Register Today & start exploring the endless possibilities.</h3>
+    </div>
+    <div className="cta-btn">
+      <button type="button">Get Started</button>
+    </div>
+  </div>
+);
 
-export default Cta;
+export default CTA;
