@@ -1,0 +1,142 @@
+/* CSS (App.css) */
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: var(--BG, #0b1d26);
+  color: white;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#center-links {
+  display: flex;
+  gap: 20px;
+}
+
+#center-links,
+a {
+  text-decoration: none;
+}
+
+#right-links {
+  display: flex;
+  gap: 20px;
+}
+
+#right-links img {
+  width: 24px;
+  height: 24px;
+}
+
+#quick-link {
+  font-weight: bold;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 40px;
+}
+
+#social-media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#social-media-container p {
+  transform: rotate(90deg);
+}
+
+#social-media-container a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#textual-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+#textual-info .header-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-info h3 {
+  color: var(--Accent, #fbd784);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.rectangular-line {
+  width: 72px;
+  height: 2px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  background-color: var(--Accent, #fbd784);
+}
+
+h1 {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px; /* 113.636% */
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+
+.btn-1 {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-1 img {
+  width: 14px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+}
+
+#slider {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.slider-section {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
