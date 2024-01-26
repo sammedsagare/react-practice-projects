@@ -64,7 +64,8 @@ const App = () => {
               </button>
             </a>
           </div>
-          <div id="slider">
+
+          <div id="slider" className="slider-container">
             <div className="slider-section">
               <a href="#start">Start</a>
             </div>
@@ -152,7 +153,7 @@ const App = () => {
             </button>
           </div>
           <div className="image-container-3">
-            <img src={one} alt="03" />
+            <img src={three} alt="03" />
           </div>
         </div>
         <footer>
