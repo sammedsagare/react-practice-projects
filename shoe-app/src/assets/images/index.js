@@ -16,6 +16,7 @@ import airmax1 from "./airmax1.jpeg";
 import yeezy500 from "./yeezy500.jpeg";
 import ajlegacy312 from "./ajlegacy312.jpeg";
 import nb650 from "./nb650.webp";
+import aj1Mid from "./aj1Mid.jpeg";
 
 import thumbnailBackground from "./thumbnail-background.svg";
 import thumbnailShoe1 from "./thumbnail-shoe1.svg";
@@ -37,6 +38,7 @@ export {
   yeezy500,
   ajlegacy312,
   nb650,
+  aj1Mid,
   thumbnailBackground,
   thumbnailShoe1,
   thumbnailShoe2,
