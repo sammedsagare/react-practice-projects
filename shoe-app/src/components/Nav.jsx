@@ -1,6 +1,6 @@
 import { logo2 } from "../assets/icons";
 import { hamburger } from "../assets/icons";
-import { navLinks } from "../constants";
+import { navLinks } from "../data";
 
 const Nav = () => {
   return (
@@ -9,12 +9,12 @@ const Nav = () => {
         <a href="/">
           <img src={logo2} alt="Logo" width={130} height={29} />
         </a>
-        <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
+        <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidde">
           {navLinks.map((link) => (
             <li key={link.label}>
               <a
                 href={link.href}
-                className="font-montserrat leading-normal text-lg text-slate-gray"
+                className="font-montserrat leading-normal text-lg text-slate-gray hover:text-sky-500"
               >
                 {link.label}
               </a>

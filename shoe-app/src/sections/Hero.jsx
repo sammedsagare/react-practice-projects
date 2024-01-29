@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import Button from "../components/Button";
 import { arrowRight } from "../assets/icons";
-import { shoes, statistics } from "../constants";
+import { shoes, statistics } from "../data";
 
 import { bigShoe1 } from "../assets/images";
 import ShoeCard from "../components/ShoeCard";
@@ -16,7 +16,7 @@ const Hero = () => {
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
-        <p className="text-xl font-montserrat text-coral-red">
+        <p className="text-xl font-montserrat font-semibold text-transparent bg-gradient-to-r from-cyan-500 to-sky-500 bg-clip-text">
           Our Summer Collections
         </p>
         <h1 className="mt-10 font-palanquin text-6xl max-sm: text-[72px] max-sm:leading-[82px] font-bold">
@@ -24,7 +24,7 @@ const Hero = () => {
             Step into Comfort With
           </span>
           <br />
-          <span className="text-coral-red inline-block mt-3">
+          <span className="font-semibold text-transparent bg-gradient-to-r from-cyan-500 to-sky-500 bg-clip-text inline-block mt-3">
             easysole&nbsp;
           </span>
           Shoes
