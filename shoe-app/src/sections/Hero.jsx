@@ -19,9 +19,9 @@ const Hero = () => {
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer Collections
         </p>
-        <h1 className="mt-10 font-palanquin text-8xl max-sm: text-[72px] max-sm:leading-[82px] font-bold">
+        <h1 className="mt-10 font-palanquin text-6xl max-sm: text-[72px] max-sm:leading-[82px] font-bold">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
-            The New Arrival
+            Step into Comfort With
           </span>
           <br />
           <span className="text-coral-red inline-block mt-3">
@@ -30,8 +30,8 @@ const Hero = () => {
           Shoes
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
-          Discover stylish arrivals, quality comfort, and innovation for your
-          active life
+          Where Style Meets Ease - Explore the Freshness of Our Summer
+          Collection, Redefining Active Living
         </p>
         <Button label="Shop now" iconURL={arrowRight} />
 
