@@ -10,7 +10,7 @@ import headerLogo from "./header-logo.svg";
 import logo from "./logo.svg";
 import logo2 from "./logo2.svg";
 
-import offer from "./offer.svg";
+import offer from "./offer.jpg";
 
 import airmax1 from "./airmax1.jpeg";
 import yeezy500 from "./yeezy500.jpeg";
