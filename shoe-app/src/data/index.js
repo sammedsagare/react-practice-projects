@@ -98,17 +98,17 @@ export const services = [
 export const reviews = [
   {
     imgURL: customer1,
-    customerName: "Morich Brown",
-    rating: 4.5,
+    customerName: "Oliver Anderson",
+    rating: 4.7,
     feedback:
-      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+      "Got some killer shoes from this store! Quality is A+, and the Special Offer made it a steal. Highly recommended for both style and savings.",
   },
   {
     imgURL: customer2,
-    customerName: "Lota Mongeskar",
-    rating: 4.5,
+    customerName: "Mia Rodriguez",
+    rating: 4.6,
     feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+      "Absolutely love my new shoes! Amazing variety and unbeatable prices. Great find for anyone who wants style without breaking the bank.",
   },
 ];
 
@@ -137,8 +137,8 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "customer@easysole.com", link: "mailto:customer@easysole.com" },
+      { name: "+1 (555) 123-4567", link: "tel:+1 (555) 555-1234" },
     ],
   },
 ];
