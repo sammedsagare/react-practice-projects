@@ -1,6 +1,4 @@
 import arrowRight from "./arrow-right.png";
-import chevronLeft from "./chevron-left.svg";
-import cheveronRight from "./chevron-right.svg";
 import copyrightSign from "./copyright-sign.svg";
 import facebook from "./facebook.svg";
 import hamburger from "./hamburger.svg";
@@ -15,8 +13,6 @@ import logo2 from "./logo2.svg";
 
 export {
   arrowRight,
-  cheveronRight,
-  chevronLeft,
   copyrightSign,
   facebook,
   hamburger,
