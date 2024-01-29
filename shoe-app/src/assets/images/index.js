@@ -16,6 +16,11 @@ import ajlegacy312 from "./ajlegacy312.jpeg";
 import nb650 from "./nb650.webp";
 import aj1Mid from "./aj1Mid.jpeg";
 
+import thumbnailBackground from "./thumbnail-background.svg";
+import thumbnailShoe1 from "./thumbnail-shoe1.svg";
+import thumbnailShoe2 from "./thumbnail-shoe2.svg";
+import thumbnailShoe3 from "./thumbnail-shoe3.svg";
+
 export {
   bigShoe1,
   bigShoe2,
@@ -30,4 +35,8 @@ export {
   ajlegacy312,
   nb650,
   aj1Mid,
+  thumbnailBackground,
+  thumbnailShoe1,
+  thumbnailShoe2,
+  thumbnailShoe3,
 };
